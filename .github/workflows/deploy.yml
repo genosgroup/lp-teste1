@@ -29,12 +29,11 @@ jobs:
       - name: Baixar o código
         uses: actions/checkout@v4
 
+      # Exige que o Pages já esteja ativado no repositório com
+      # Source: GitHub Actions (Settings > Pages). É um passo único:
+      # o GITHUB_TOKEN não tem permissão para criar o site do Pages.
       - name: Configurar o Pages
         uses: actions/configure-pages@v5
-        with:
-          # Habilita o Pages no repositório automaticamente, sem passar
-          # pelas configurações na mão. Exige a permissão pages: write.
-          enablement: true
 
       - name: Empacotar o site (site estático na raiz)
         uses: actions/upload-pages-artifact@v3
