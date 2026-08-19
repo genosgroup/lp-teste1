@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://genosgroup.github.io/lp-teste1/sitemap.xml

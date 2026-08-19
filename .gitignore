@@ -1,0 +1,17 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Dependências / build (caso a LP evolua para um projeto com bundler)
+node_modules/
+dist/
+.cache/
+
+# Ambiente
+.env
+.env.local
