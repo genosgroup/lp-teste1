@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <radialGradient id="g" cx="82%" cy="12%" r="70%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity=".38"/>
+      <stop offset="55%" stop-color="#FF6B00" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#0A0A0A" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#0A0A0A"/>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <rect x="80" y="86" width="64" height="64" rx="16" fill="#FF6B00"/>
+  <path d="M133.6 108.7a14.4 14.4 0 1 0 1.8 15.4h-14.6v-6.7h21.1v3" fill="none" stroke="#0A0A0A" stroke-width="5.4" stroke-linecap="square" transform="translate(-20 -8)"/>
+  <text x="164" y="130" font-family="Sora, Inter, sans-serif" font-size="38" font-weight="800" fill="#FFFFFF">Genos<tspan fill="#FF6B00">.</tspan></text>
+  <text x="80" y="290" font-family="Sora, Inter, sans-serif" font-size="66" font-weight="800" fill="#FFFFFF">Agenda previsível para</text>
+  <text x="80" y="370" font-family="Sora, Inter, sans-serif" font-size="66" font-weight="800" fill="#FF6B00">clínicas odontológicas.</text>
+  <text x="80" y="440" font-family="Inter, sans-serif" font-size="28" fill="#A6A6A6">Consultoria de marketing com método, dado e processo.</text>
+  <rect x="80" y="500" width="300" height="62" rx="31" fill="#FF6B00"/>
+  <text x="230" y="540" text-anchor="middle" font-family="Sora, Inter, sans-serif" font-size="22" font-weight="600" fill="#0A0A0A">Diagnóstico gratuito</text>
+</svg>
