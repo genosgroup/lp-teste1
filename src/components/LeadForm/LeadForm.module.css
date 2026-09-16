@@ -1,0 +1,39 @@
+.form{
+  background:linear-gradient(165deg, var(--preto-3), var(--preto-2));
+  border:1px solid var(--borda-forte); border-radius:var(--raio-lg);
+  padding:34px 30px; box-shadow:0 30px 70px rgba(0,0,0,.5);
+}
+.title{ margin-bottom:22px; font-size:1.3rem; }
+.field{ margin-bottom:17px; }
+.row{ display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.field label{ display:block; font-size:.86rem; font-weight:500; margin-bottom:7px; color:#DADADA; }
+.optional{ color:var(--cinza-escuro); font-weight:400; }
+
+.field input,.field select,.field textarea{
+  width:100%; padding:13px 15px; border-radius:11px;
+  background:rgba(0,0,0,.45); border:1px solid var(--borda);
+  color:var(--branco); font-family:var(--fonte-texto); font-size:.95rem;
+  transition:var(--transicao); resize:vertical;
+}
+.field input::placeholder,.field textarea::placeholder{ color:#5A5A5A; }
+.field input:focus,.field select:focus,.field textarea:focus{
+  outline:none; border-color:var(--laranja); background:rgba(0,0,0,.65);
+  box-shadow:0 0 0 3px rgba(255,107,0,.14);
+}
+.field select{ appearance:none; cursor:pointer;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23FF6B00' stroke-width='2.5'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat:no-repeat; background-position:right 14px center; background-size:16px; padding-right:42px; }
+.field select option{ background:var(--preto-2); color:var(--branco); }
+
+.field.invalid input,.field.invalid select{ border-color:#FF4D4D; }
+.error{ display:none; font-size:.79rem; color:#FF6B6B; margin-top:6px; }
+.field.invalid .error{ display:block; }
+
+.submit{ margin-top:8px; }
+.note{ font-size:.78rem; color:var(--cinza-escuro); margin:14px 0 0; text-align:center; }
+.status{ margin:12px 0 0; font-size:.88rem; text-align:center; color:var(--laranja); min-height:1.2em; }
+
+@media (max-width:720px){
+  .row{ grid-template-columns:1fr; }
+  .form{ padding:28px 22px; }
+}

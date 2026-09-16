@@ -1,0 +1,4 @@
+.eyebrow{
+  display:inline-block; font-family:var(--fonte-titulo); font-size:.78rem; font-weight:600;
+  text-transform:uppercase; letter-spacing:.16em; color:var(--laranja); margin-bottom:14px;
+}

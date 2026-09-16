@@ -1,0 +1,4 @@
+.quote{ margin:0; background:var(--preto-3); border:1px solid var(--borda); border-left:3px solid var(--laranja); border-radius:var(--raio); padding:30px 26px; }
+.quote blockquote{ margin:0 0 20px; font-size:1rem; line-height:1.7; color:#E6E6E6; }
+.quote figcaption strong{ display:block; font-family:var(--fonte-titulo); font-size:.96rem; }
+.quote figcaption span{ font-size:.84rem; color:var(--cinza-escuro); }

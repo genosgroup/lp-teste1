@@ -1,0 +1,4 @@
+.brand{ display:inline-flex; align-items:center; gap:11px; }
+.mark{ width:34px; height:34px; flex:none; }
+.text{ font-family:var(--fonte-titulo); font-weight:800; font-size:1.32rem; letter-spacing:-.03em; }
+.dot{ color:var(--laranja); }

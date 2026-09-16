@@ -7,10 +7,11 @@ Thumbs.db
 .idea/
 *.swp
 
-# Dependências / build (caso a LP evolua para um projeto com bundler)
+# Dependências / build
 node_modules/
 dist/
 .cache/
+.vite/
 
 # Ambiente
 .env

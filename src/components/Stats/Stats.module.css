@@ -1,0 +1,9 @@
+.stats{ border-block:1px solid var(--borda); background:var(--preto-2); }
+.grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:24px; padding-block:44px; }
+.stat{ text-align:center; }
+.stat strong{ display:block; font-family:var(--fonte-titulo); font-size:clamp(1.9rem,3.4vw,2.7rem); font-weight:800; color:var(--laranja); letter-spacing:-.03em; }
+.stat span{ font-size:.87rem; color:var(--cinza); }
+
+@media (max-width:980px){
+  .grid{ grid-template-columns:repeat(2,1fr); gap:32px 20px; }
+}

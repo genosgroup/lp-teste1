@@ -1,0 +1,7 @@
+.case{ background:var(--preto-3); border:1px solid var(--borda); border-radius:var(--raio); padding:30px 26px; }
+.tag{ font-size:.78rem; color:var(--cinza-escuro); text-transform:uppercase; letter-spacing:.08em; }
+.big{ display:block; font-family:var(--fonte-titulo); font-size:2.7rem; font-weight:800; color:var(--laranja); letter-spacing:-.03em; margin:12px 0 10px; }
+.desc{ font-size:.95rem; }
+.list{ list-style:none; padding:18px 0 0; margin:18px 0 0; border-top:1px solid var(--borda); font-size:.88rem; color:var(--cinza); }
+.list li{ position:relative; padding-left:18px; margin-bottom:7px; }
+.list li::before{ content:'▸'; position:absolute; left:0; color:var(--laranja); }

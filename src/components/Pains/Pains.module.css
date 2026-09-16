@@ -1,0 +1,8 @@
+.pain{
+  background:var(--preto-3); border:1px solid var(--borda); border-radius:var(--raio);
+  padding:28px 26px; transition:var(--transicao);
+}
+.pain:hover{ border-color:rgba(255,107,0,.42); transform:translateY(-4px); }
+.num{ font-family:var(--fonte-titulo); font-size:.82rem; font-weight:700; color:var(--laranja); letter-spacing:.1em; }
+.pain h3{ margin-top:12px; }
+.pain p{ margin:0; font-size:.94rem; }

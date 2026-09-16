@@ -1,0 +1,11 @@
+.service{
+  background:linear-gradient(170deg, var(--preto-3), rgba(22,22,22,.4));
+  border:1px solid var(--borda); border-radius:var(--raio); padding:30px 26px; transition:var(--transicao);
+}
+.service:hover{ border-color:rgba(255,107,0,.42); transform:translateY(-4px); }
+.icon{
+  width:48px; height:48px; border-radius:13px; display:grid; place-items:center;
+  background:var(--laranja-fraco); border:1px solid rgba(255,107,0,.28);
+  color:var(--laranja); font-size:1.35rem; margin-bottom:18px;
+}
+.service p{ margin:0; font-size:.94rem; }

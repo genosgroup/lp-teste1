@@ -1,0 +1,2 @@
+.section{ padding:clamp(64px,8vw,104px) 0; }
+.alt{ background:var(--preto-2); border-block:1px solid var(--borda); }
